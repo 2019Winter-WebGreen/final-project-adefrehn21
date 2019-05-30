@@ -1,0 +1,85 @@
+/*
+* Ashley DeFrehn
+* May 30 2019
+* Amelia Earhart- Final Project
+*/
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body attributes here */
+
+/* Below formats the body section of my webpage including the width, background color, margin, and border */
+body{
+    width: 98%;
+    background-color: gainsboro;
+    margin: 15px auto;
+    border: 1px solid black;
+}
+/* Below fromats the padding, text alignment, and text decoration for all h1's in my webpage */
+h1 {
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+/* Below formats the header's text alignment, bottom border color, size, and solid border */
+header {
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+/* Below formats sidebarA text alignment, width, margin, float, and height */
+#sidebarA {
+    text-align: center;
+    width: 25%;
+    height: 850px;
+    float: left;
+    margin: 25px;    
+}
+/* Below formats the main's width, height, float, margin, and background color */
+main {
+    width: 50%;
+    height: 850px;
+    float: left;
+    margin: 15px;
+    background-color: beige;
+}
+/* Below formats sidebarB text alignment, width, margin, float, and height */
+#sidebarB {
+    text-align: center;
+    width: 15%;
+    height: 850px;
+    margin: 2px;
+    float: right;
+}
+/* Below formats the footer portion of my webpage including the border and clear */
+footer {
+    clear: left;
+    border: 5px solid black; 
+}
+/* Below formats my picture of Amelia Earhart, as well as floating it left and creating a border around the image */
+#AmeliaPic { 
+    height: 220px;
+    margin: 15px;
+    width: 200px; 
+    float: left;
+    border: 5px solid black;
+}
+/* Below formats my picture of Amelia Earhart standing in front of her plane, including the border, height, margin, and width */
+#AmeliaPlane {
+    border: 5px solid beige;
+    height: 180px;
+    margin: 10px;
+    width: 180px;
+}
+/* Below formats my picture of the Amelia Earhart Logo with a plane in it, it formats the margin, height, width, and floats the image */
+#AmeliaLogo {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
